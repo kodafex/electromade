@@ -1,3 +1,89 @@
 @tailwind base;
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+/* @font-face {
+  font-family: PalmCanyonDrive;
+  font-weight: 400;
+  src: url(../fonts/PalmCanyonDrive-Trial.otf) format("opentype");
+} */
+
+/* @font-face {
+  font-family: NightHawk;
+  font-weight: 400;
+  src: url(../fonts/Nighthawk-Regular.otf) format("opentype");
+} */
+
+@font-face {
+  font-family: FlottFlott;
+  font-weight: 400;
+  src: url(../fonts/Flottflott.ttf) format("truetype");
+}
+@font-face {
+  font-family: Pretendo;
+  font-weight: 400;
+  src: url(../fonts/Pretendo.ttf) format("truetype");
+}
+@font-face {
+  font-family: Nintend;
+  font-weight: 400;
+  src: url(../fonts/NintendBold-RM8E.ttf) format("truetype");
+}
+@font-face {
+  font-family: Storefront;
+  font-weight: 400;
+  src: url(../fonts/storefront-pro.otf) format("opentype");
+}
+ 
+@font-face {
+  font-family: Holtzman;
+  font-weight: 400;
+  src: url(../fonts/Holtzman-Regular.otf) format("opentype");
+}
+/*
+@font-face {
+  font-family: Transistor;
+  font-weight: 600;
+  src: url(../fonts/Transistor.otf) format("opentype");
+}
+@font-face {
+  font-family: Oblady;
+  font-weight: 200;
+  src: url(../fonts/ObladyFree-qZY81.ttf) format("truetype");
+} */
+.text-inset {
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+}
+.basketball {
+  background-image: 
+  url(../public/white-brushed.png), linear-gradient(to top, theme('colors.aluminumdarker'), theme('colors.aluminumlight'));
+}
+.sandpaper {
+  background-image: 
+  url(../public/sandpaper.png);
+}
+/* .brushed {
+  background-image: url(../public/brushed-alum.png);
+}
+.brushed-dark {
+  background-image: url(../public/brushed-alum-dark.png);
+}
+.brushed-light {
+  background-image: url(../public/light-aluminum.png);
+}
+.debut-dark {
+  background-image: url(../public/debut-dark.png);
+}
+.large-leather {
+  background-image: url(../public/large-leather.png);
+}
+.white-brushed {
+  background-image: url(../public/white-brushed.png);
+}
+.white-leather {
+  background-image: url(../public/white-leather.png);
+} */
 @tailwind components;
 @tailwind utilities;

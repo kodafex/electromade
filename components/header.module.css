@@ -1,0 +1,7 @@
+.link {
+  @apply w-24 rounded 
+}
+
+.link:hover {
+  @apply bg-gray-900 text-aluminumlight 
+}
